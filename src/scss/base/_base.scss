@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $color-very-light-gray;
+	color: $color-very-dark-blue;
+	font-size: $main-font-size;
+	font-family: $main-font;
+	max-width: $table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@include laptop {
+	.body {
+		max-width: 1440px;
+	}
+}

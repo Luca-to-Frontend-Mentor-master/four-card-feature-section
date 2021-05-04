@@ -1,0 +1,14 @@
+$table: 768px;
+$laptop: 1024px;
+
+@mixin table {
+	@media screen and (min-width: $table) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media screen and (min-width: $laptop) {
+		@content;
+	}
+}

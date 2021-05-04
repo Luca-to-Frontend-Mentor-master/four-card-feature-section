@@ -1,0 +1,29 @@
+.main-header {
+	text-align: center;
+	margin: 50px 20px;
+}
+
+@include laptop {
+	.main-header {
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.main-title {
+	font-size: 1.6rem;
+	font-weight: $font-light;
+}
+
+@include laptop {
+	.main-title {
+		font-size: 2.2rem;
+	}
+}
+
+.main-subtitle {
+	font-weight: $font-regular;
+	color: $color-grayish-blue;
+	line-height: 22px;
+}
